@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "morgan": "^1.10.0",
+    "mssql": "^6.3.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}

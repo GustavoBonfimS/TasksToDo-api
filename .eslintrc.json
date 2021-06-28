@@ -1,0 +1,28 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "prettier",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "eslint-plugin-prettier"
+    ],
+    "rules": {
+        "arrow-body-style":"off",
+        "prettier/prettier": "warn",
+        "react/prop-types": "off",
+        "no-console": "off",
+        "arrow-parens": "off",
+        "semi": ["warn", "always"],
+        "quotes": ["warn", "single", { "allowTemplateLiterals": true }],
+        "no-unused-vars": "warn",
+        "import/prefer-default-export": "off",
+        "indent": ["error", 2]
+    }
+}
